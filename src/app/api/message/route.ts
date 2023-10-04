@@ -1,6 +1,6 @@
-import { openai } from "@/app/lib/openai";
-import { getPineconeClient } from "@/app/lib/pinecone";
-import { SendMessageValidator } from "@/app/lib/validators/SendMessageValidator";
+import { openai } from "@/lib/openai";
+import { getPineconeClient } from "@/lib/pinecone";
+import { SendMessageValidator } from "@/lib/validators/SendMessageValidator";
 import { db } from "@/db";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
